@@ -1,0 +1,937 @@
+,feature,value
+0,noi1,0.26844084374289423
+1,tanAsset1,0.05585972426552194
+2,debt2,0.03532322590437691
+3,netAsset1,0.026734687435704067
+4,profit1,0.03329173279684595
+5,longLoan1,0.06565118074491921
+6,longLoan2,0.02141195143231056
+7,noi2,0.031953700096178705
+8,receivableL2,0.002747252816334367
+9,nonCAsset1,0.02240265177735931
+10,liquidLiabilities1,0.08436609563802683
+11,liquidAsset1,0.02346155391656262
+12,inventoryAsset1,0.07908994335852947
+13,ownerChange = same,0.0032677410916348766
+14,ownerChange = change,0.0033308790964198982
+15,ownerChange = unknown,0.002360050825160003
+16,NCLiabilities2,0.025357911523887708
+17,liquidAsset2,0.027195129203852295
+18,salary2,0.025266838667379145
+19,noe2,0.013645540731402457
+20,quickAsset1,0.011756745035609147
+21,shortLoan1,0.03898079855833
+22,interest1,0.04390008190364211
+23,employee1 = 79.0,0.0
+24,employee1 = 73.0,0.00014989081435974616
+25,employee1 = 54.0,0.0007419722717813056
+26,employee1 = 62.0,0.0008843242232744977
+27,employee1 = 60.0,0.002841187382284922
+28,employee1 = 50.0,0.0
+29,employee1 = 42.0,0.00305358385821185
+30,employee1 = 77.0,0.0
+31,employee1 = 75.0,0.0015129871585237119
+32,employee1 = 67.0,0.00040343338605675186
+33,employee1 = unknown,0.002836686070694632
+34,revenue1,0.03579617334388638
+35,salescost1,0.05981235068472386
+36,shortLoan2,0.03516015420841088
+37,NCLiabilities1,0.044573073258607945
+38,ctax1,0.03045312306490497
+39,receivableL1,0.0
+40,profit2,0.02149216577319453
+41,nonCAsset2,0.04632399723280772
+42,surplus2,0.00841914655474245
+43,instkind = nursing_hospital,0.002747252816334367
+44,instkind = hospital,0.0014232253544120663
+45,instkind = general_hospital,0.002747252816334367
+46,instkind = clinic,0.002747252816334367
+47,instkind = traditional_hospital,0.0013779987737346832
+48,instkind = traditional_clinic,0.0
+49,instkind = dental_clinic,0.0
+50,instkind = unknown,0.005494505632668734
+51,salary1,0.055944272741087674
+52,revenue2,0.03828306743510935
+53,tanAsset2,0.05168493856135445
+54,netAsset2,0.03740659534211619
+55,sido = gyeonggi,0.000894792518758946
+56,sido = gyeongbuk,0.005494505632668734
+57,sido = gyeongnam,0.0014854039733631426
+58,sido = busan,0.0
+59,sido = jeonbuk,0.0001859438763908877
+60,sido = choongnam,7.74701620970566e-05
+61,sido = jeonnam,0.003892681680763895
+62,sido = seoul,0.0008520417316424978
+63,sido = choongbuk,0.0
+64,sido = daegu,0.0
+65,sido = unknown,0.0005666261520093895
+66,salescost2,0.06442187116225187
+67,bedCount,0.11804374409972859
+68,interest2,0.05090196632445926
+69,sga2,0.018202086800020115
+70,sga1,0.03639797673826921
+71,noe1,0.017178830108204632
+72,employee2 = 88.0,0.0
+73,employee2 = 80.0,0.0
+74,employee2 = 70.0,0.0
+75,employee2 = 75.0,0.00023694239913541192
+76,employee2 = 74.0,0.009776723144028495
+77,employee2 = 62.0,7.967037963152554e-05
+78,employee2 = 53.0,0.0
+79,employee2 = 15.0,0.0
+80,employee2 = 1.0,8.106048848197473e-05
+81,employee2 = 95.0,0.0
+82,employee2 = unknown,0.00020208401054200891
+83,debt1,0.07983820877479739
+84,OnonCAsset1,0.08984299471263389
+85,quickAsset2,0.023144626332039547
+86,ctax2,0.015205074369933146
+87,receivableS2,0.03914872587938934
+88,OnonCAsset2,0.025412556767471638
+89,receivableS1,0.023029313580146635
+90,surplus1,0.005260553454821425
+91,liquidLiabilities2,0.13010558912549747
+92,sgg,0.08376919654770362
+93,inventoryAsset2,0.13687711039099565
+94,DIFF(OnonCAsset1 by ownerChange),0.08901931415230895
+95,DIFF(surplus2 by instkind),0.0166191941639295
+96,DIFF(longLoan2 by instkind),0.024554084085681493
+97,DIFF(noi1 by sido),0.04952024105134363
+98,DIFF(liquidLiabilities1 by instkind),0.04600537705720385
+99,DIFF(quickAsset2 by ownerChange),0.042905379570700085
+100,DIFF(nonCAsset2 by ownerChange),0.013514132929794918
+101,DIFF(ctax1 by instkind),0.012341643352626417
+102,DIFF(receivableL1 by ownerChange),0.0
+103,DIFF(revenue2 by ownerChange),0.01962920620217248
+104,DIFF(OnonCAsset2 by sido),0.058723889307639825
+105,DIFF(NCLiabilities1 by sido),0.007248889232703848
+106,DIFF(interest2 by ownerChange),0.030163633413146526
+107,DIFF(ctax2 by ownerChange),0.022230345429354596
+108,DIFF(tanAsset2 by instkind),0.09161386070933497
+109,DIFF(interest2 by instkind),0.023800263871519928
+110,DIFF(noi2 by ownerChange),0.01937122635865378
+111,DIFF(debt1 by instkind),0.011716483171166789
+112,DIFF(sgg by sido),0.05095454592030833
+113,DIFF(shortLoan1 by ownerChange),0.3827343911507789
+114,DIFF(receivableS1 by sido),0.02559957482713282
+115,DIFF(salary1 by instkind),0.012947142504916121
+116,DIFF(interest1 by sido),0.011806789188291474
+117,DIFF(liquidLiabilities2 by sido),0.024311933212770184
+118,DIFF(debt2 by instkind),0.019428921783015182
+119,DIFF(revenue2 by sido),0.012549861755258762
+120,DIFF(sga1 by instkind),0.015421698072705053
+121,DIFF(salescost1 by ownerChange),0.046994896093239286
+122,DIFF(OnonCAsset1 by sido),0.017786869944256177
+123,DIFF(surplus2 by ownerChange),0.03309302901827778
+124,DIFF(debt1 by ownerChange),0.01443936167894913
+125,DIFF(tanAsset1 by ownerChange),0.02122059986591948
+126,DIFF(surplus2 by sido),0.011424763309572965
+127,DIFF(noi2 by sido),0.05637030107346886
+128,DIFF(sga1 by ownerChange),0.00878349693914702
+129,DIFF(nonCAsset2 by sido),0.005738249683677008
+130,DIFF(profit2 by sido),0.01289699570354511
+131,DIFF(OnonCAsset2 by instkind),0.13307349760346968
+132,DIFF(NCLiabilities2 by ownerChange),0.019778579487924986
+133,DIFF(inventoryAsset2 by instkind),0.03247421457998409
+134,MONTH(openDate) = 12.0,0.007344221940813321
+135,MONTH(openDate) = 5.0,0.002549198623771797
+136,MONTH(openDate) = 4.0,0.002626086206564674
+137,MONTH(openDate) = 9.0,0.0008430232402477218
+138,MONTH(openDate) = 1.0,0.003496065308005317
+139,MONTH(openDate) = 6.0,0.00905829592114564
+140,MONTH(openDate) = 2.0,0.0009357342644381086
+141,MONTH(openDate) = 8.0,0.0
+142,MONTH(openDate) = 7.0,0.0026396918223778555
+143,MONTH(openDate) = 10.0,0.007072483908457956
+144,MONTH(openDate) = unknown,0.000789480100484238
+145,DIFF(salescost1 by instkind),0.05203173824847888
+146,DIFF(quickAsset2 by instkind),0.042499516097817006
+147,DIFF(netAsset1 by sido),0.022536560841316194
+148,DIFF(receivableS1 by instkind),0.0368797922640412
+149,DIFF(profit2 by ownerChange),0.14890312290144736
+150,DIFF(netAsset2 by ownerChange),0.020416159774631536
+151,DIFF(liquidAsset1 by ownerChange),0.014118350551209153
+152,DIFF(longLoan2 by ownerChange),0.10322911771265678
+153,DIFF(liquidAsset1 by sido),0.0113439051233973
+154,DIFF(bedCount by instkind),0.14582727059393402
+155,DIFF(receivableL1 by sido),0.0
+156,DIFF(nonCAsset2 by instkind),0.0453306433907268
+157,DIFF(debt1 by sido),0.013859148199226092
+158,DIFF(receivableL1 by instkind),0.0
+159,DIFF(noi1 by instkind),0.039181043648560065
+160,DIFF(longLoan1 by ownerChange),0.024241877985410665
+161,DIFF(interest1 by ownerChange),0.022809266721062774
+162,DIFF(revenue1 by sido),0.005943745469017667
+163,DIFF(noe2 by sido),0.07660303623326296
+164,DIFF(liquidLiabilities1 by sido),0.004382732397430121
+165,DIFF(bedCount by sido),0.058008938550152364
+166,DIFF(salescost2 by instkind),0.0336700877884075
+167,DIFF(noe2 by ownerChange),0.06242958885941695
+168,DIFF(receivableL2 by ownerChange),0.0
+169,DIFF(bedCount by ownerChange),0.10333577753066492
+170,DIFF(liquidLiabilities2 by instkind),0.03892077903203886
+171,DIFF(quickAsset1 by ownerChange),0.019872897400096887
+172,DIFF(netAsset1 by ownerChange),0.026001758166470164
+173,WEEK(openDate) = 1.0,0.0
+174,WEEK(openDate) = 22.0,0.003448607230076656
+175,WEEK(openDate) = 52.0,0.0
+176,WEEK(openDate) = 27.0,0.0006621629778491392
+177,WEEK(openDate) = 49.0,0.015252927296344058
+178,WEEK(openDate) = 50.0,0.00041052879233249433
+179,WEEK(openDate) = 31.0,0.0
+180,WEEK(openDate) = 6.0,0.0
+181,WEEK(openDate) = 42.0,0.00025646761351824356
+182,WEEK(openDate) = 39.0,0.006602059680825851
+183,WEEK(openDate) = unknown,0.011687265391960668
+184,DIFF(inventoryAsset2 by sido),0.03687819899292219
+185,DIFF(netAsset1 by instkind),0.02384963695571101
+186,DIFF(noe1 by ownerChange),0.13972490041725077
+187,DIFF(NCLiabilities2 by instkind),0.05415382441920978
+188,DIFF(revenue1 by ownerChange),0.015073454222671836
+189,DIFF(receivableL2 by instkind),0.0
+190,DIFF(interest2 by sido),0.014393840022529596
+191,DIFF(salary2 by instkind),0.04481568927004788
+192,DIFF(netAsset2 by instkind),0.04057905609825769
+193,DIFF(shortLoan1 by sido),0.0416720314579376
+194,DIFF(longLoan1 by sido),0.019345555390483778
+195,DIFF(sga2 by ownerChange),0.01160613821784361
+196,DIFF(liquidLiabilities1 by ownerChange),0.01589022403111886
+197,DIFF(tanAsset2 by sido),0.01758286071543576
+198,DIFF(OnonCAsset2 by ownerChange),0.06764286540024493
+199,DIFF(noe1 by sido),0.04481760823258914
+200,DIFF(noi1 by ownerChange),0.02753593681355588
+201,DIFF(OnonCAsset1 by instkind),0.08634342516932826
+202,DIFF(sgg by instkind),0.07110501071614854
+203,DIFF(shortLoan2 by ownerChange),0.017376757188010843
+204,DIFF(debt2 by sido),0.013950957383971799
+205,DIFF(noe1 by instkind),0.012029750341406424
+206,DIFF(ctax2 by instkind),0.029179873735785847
+207,DIFF(receivableS2 by ownerChange),0.0255263659322321
+208,DIFF(profit2 by instkind),0.02755693766123697
+209,DIFF(surplus1 by ownerChange),0.014450396715912138
+210,DIFF(salescost2 by ownerChange),0.018625169749486047
+211,DIFF(longLoan2 by sido),0.007073439159685912
+212,DIFF(salescost1 by sido),0.02071429123454605
+213,DIFF(profit1 by sido),0.026688856473784123
+214,DIFF(profit1 by ownerChange),0.026068964558613045
+215,DIFF(noe2 by instkind),0.023270827491665442
+216,DIFF(sga2 by sido),0.010534360176951394
+217,DIFF(tanAsset2 by ownerChange),0.010173406226572517
+218,DIFF(netAsset2 by sido),0.0167858936970977
+219,DIFF(NCLiabilities2 by sido),0.004458550605870451
+220,DIFF(inventoryAsset2 by ownerChange),0.017173441917014358
+221,DIFF(debt2 by ownerChange),0.009867056981861445
+222,DIFF(tanAsset1 by sido),0.021008048383867883
+223,DIFF(tanAsset1 by instkind),0.018341796308692756
+224,DIFF(salary2 by sido),0.00532462735202532
+225,DIFF(surplus1 by instkind),0.02511362106471638
+226,DIFF(quickAsset1 by sido),0.012365449228009622
+227,DIFF(surplus1 by sido),0.020940377681420697
+228,DIFF(salary1 by sido),0.009515735687564307
+229,DIFF(sgg by ownerChange),0.11770443208549101
+230,DIFF(NCLiabilities1 by ownerChange),0.009960088301223403
+231,DIFF(inventoryAsset1 by ownerChange),0.024895216856709174
+232,DIFF(ctax2 by sido),0.04993512216398433
+233,DIFF(nonCAsset1 by instkind),0.013139880324162785
+234,DIFF(salescost2 by sido),0.017214236926398813
+235,DIFF(salary1 by ownerChange),0.0119441319090211
+236,DIFF(longLoan1 by instkind),0.016563755656749345
+237,DIFF(liquidAsset2 by sido),0.046365389781358644
+238,DIFF(ctax1 by ownerChange),0.017402769322026924
+239,DIFF(sga1 by sido),0.013736276805560834
+240,DIFF(nonCAsset1 by sido),0.015399322869197556
+241,DIFF(shortLoan2 by sido),0.016578154020554153
+242,DIFF(sga2 by instkind),0.026383163204301945
+243,DIFF(revenue1 by instkind),0.007552944394153821
+244,DIFF(profit1 by instkind),0.028640596149922995
+245,DIFF(nonCAsset1 by ownerChange),0.010764995042371389
+246,DIFF(noi2 by instkind),0.05721187981587392
+247,DIFF(receivableS1 by ownerChange),0.05303568775928105
+248,DIFF(quickAsset2 by sido),0.021868894917561124
+249,DIFF(NCLiabilities1 by instkind),0.019227865708304023
+250,DIFF(liquidAsset2 by instkind),0.0400217035370426
+251,DIFF(shortLoan1 by instkind),0.07807701976234163
+252,DIFF(receivableS2 by instkind),0.020479408075019166
+253,DIFF(liquidAsset2 by ownerChange),0.031691211555792735
+254,DIFF(interest1 by instkind),0.04321427658210532
+255,DIFF(salary2 by ownerChange),0.016304873653664714
+256,DIFF(inventoryAsset1 by instkind),0.01876984663034657
+257,DIFF(receivableS2 by sido),0.039155281225551675
+258,DIFF(liquidLiabilities2 by ownerChange),0.03205673015359884
+259,DIFF(liquidAsset1 by instkind),0.025436087081535785
+260,DIFF(shortLoan2 by instkind),0.051257718884674515
+261,DIFF(quickAsset1 by instkind),0.008804820792580385
+262,DIFF(inventoryAsset1 by sido),0.020486244152886367
+263,DIFF(revenue2 by instkind),0.03168211097252419
+264,DIFF(receivableL2 by sido),0.0
+265,DIFF(ctax1 by sido),0.03923735311033687
+266,city.STD(clients.salary1),0.014859664014637989
+267,kind.MEAN(clients.nonCAsset1),0.006486897906778351
+268,change.MEDIAN(clients.NCLiabilities2),0.0
+269,change.MEDIAN(clients.surplus1),0.0
+270,kind.MEAN(clients.longLoan2),0.004426209147990562
+271,city.MEAN(clients.salescost1),0.040375167633647714
+272,city.STD(clients.noi2),0.013478587609744495
+273,city.MEDIAN(clients.liquidLiabilities1),0.0025028958946157667
+274,kind.MEDIAN(clients.shortLoan1),0.005830678809199317
+275,kind.SUM(clients.longLoan2),0.0048725340320149675
+276,change.MEDIAN(clients.netAsset1),7.018154872903679e-05
+277,city.SUM(clients.liquidLiabilities2),0.001223046274700601
+278,city.MEAN(clients.longLoan2),0.009491940032074202
+279,change.STD(clients.receivableL1),0.0
+280,city.MEAN(clients.inventoryAsset2),0.003983861770708826
+281,change.SUM(clients.receivableL2),0.0
+282,change.SUM(clients.liquidLiabilities2),0.0
+283,change.COUNT(clients),0.0
+284,change.MEAN(clients.nonCAsset2),7.755185582488273e-05
+285,city.MEAN(clients.NCLiabilities1),0.007959806365929096
+286,kind.MEDIAN(clients.quickAsset2),0.0045495556353169425
+287,kind.STD(clients.inventoryAsset1),0.007120718396377254
+288,change.STD(clients.noe1),0.0
+289,city.STD(clients.inventoryAsset2),0.008469972718295336
+290,change.MEAN(clients.sga2),0.000333762981297999
+291,city.STD(clients.debt2),0.005419903841658944
+292,change.SUM(clients.salary1),0.0
+293,change.MEDIAN(clients.noi2),0.0
+294,change.STD(clients.sga1),0.00014740249307253306
+295,kind.STD(clients.receivableL2),0.0031493239231371525
+296,kind.STD(clients.sga2),0.00531948907560678
+297,change.MEDIAN(clients.sga1),7.525549722367059e-05
+298,city.MEDIAN(clients.netAsset1),0.00581156543205292
+299,kind.MEAN(clients.tanAsset1),0.006160996840775637
+300,kind.STD(clients.NCLiabilities1),0.00301515636927843
+301,kind.MEAN(clients.netAsset2),0.014019275183071694
+302,city.MEDIAN(clients.revenue1),0.022020872355338193
+303,change.MEAN(clients.salescost1),0.0
+304,kind.MEDIAN(clients.interest1),0.0007746958213053686
+305,change.MEDIAN(clients.noi1),0.0
+306,city.MEDIAN(clients.tanAsset2),0.0029496444891245893
+307,kind.SUM(clients.revenue2),0.001403992123227133
+308,change.MEDIAN(clients.salescost1),0.0
+309,change.STD(clients.debt2),8.273506744248907e-05
+310,change.STD(clients.OnonCAsset2),7.104354914288891e-05
+311,change.STD(clients.revenue1),0.0029931910488992753
+312,city.SUM(clients.liquidAsset2),0.008160692336421704
+313,kind.MEDIAN(clients.tanAsset2),0.005317654413478163
+314,kind.STD(clients.longLoan1),0.006085107441648284
+315,kind.STD(clients.tanAsset2),0.0017739355054525088
+316,change.STD(clients.sgg),0.0002457563844789447
+317,kind.SUM(clients.salary1),0.00028186381953664025
+318,change.STD(clients.interest1),0.0
+319,kind.STD(clients.liquidAsset1),0.005517807142330717
+320,change.MEAN(clients.profit2),0.0
+321,city.STD(clients.salary2),0.05035380707445254
+322,change.MEDIAN(clients.ctax2),0.0003711000934113147
+323,city.MEDIAN(clients.noi2),0.00529977699881022
+324,change.STD(clients.nonCAsset2),0.0
+325,city.MEAN(clients.sga1),0.005582502323734911
+326,kind.SUM(clients.netAsset2),0.00043494430011074375
+327,change.STD(clients.shortLoan1),0.00020902503441080217
+328,city.STD(clients.ctax2),0.006250631785195927
+329,kind.STD(clients.noi2),5.155257210784993e-05
+330,kind.MEDIAN(clients.interest2),0.008238689799009762
+331,city.STD(clients.liquidAsset2),0.00440705393888437
+332,change.MEDIAN(clients.debt2),0.0
+333,kind.MODE(clients.ownerChange) = same,0.0
+334,kind.MODE(clients.ownerChange) = unknown,0.0
+335,kind.MEDIAN(clients.NCLiabilities1),0.0027978457983808464
+336,change.MEAN(clients.longLoan2),0.0
+337,kind.SUM(clients.noe1),0.0016524141266437444
+338,kind.STD(clients.receivableS1),0.0017639997474881016
+339,kind.SUM(clients.profit2),0.0008153752671193132
+340,city.STD(clients.debt1),0.007405310889113271
+341,kind.STD(clients.shortLoan1),0.00028739557295011966
+342,kind.MEDIAN(clients.netAsset2),0.0076090457584030964
+343,kind.SUM(clients.surplus1),0.003971406638389379
+344,city.SUM(clients.noi2),0.006820115557940986
+345,city.STD(clients.OnonCAsset2),0.007824329117358243
+346,city.MEAN(clients.sga2),0.019768185153146847
+347,city.MEDIAN(clients.longLoan2),0.031267916997193355
+348,city.SUM(clients.salescost2),0.01629579158506116
+349,kind.MEAN(clients.liquidLiabilities1),0.0034284517264161108
+350,city.MEDIAN(clients.noe2),0.008174609698812473
+351,city.SUM(clients.revenue1),0.007139511151251011
+352,change.SUM(clients.sga2),0.0007320037994777755
+353,change.MEAN(clients.interest1),0.0005057929471715112
+354,change.MEAN(clients.nonCAsset1),0.00017334033226907756
+355,city.SUM(clients.debt2),0.01703363791777721
+356,change.STD(clients.inventoryAsset1),0.00014666485408395118
+357,change.STD(clients.receivableS1),9.140660373630303e-05
+358,change.MEDIAN(clients.liquidLiabilities2),0.0
+359,kind.SUM(clients.noe2),0.0007270805577952074
+360,city.STD(clients.sgg),0.00971714375807886
+361,change.SUM(clients.debt2),0.0
+362,city.STD(clients.liquidAsset1),0.0021611762282832615
+363,city.MEAN(clients.NCLiabilities2),0.01141311138904765
+364,change.MEDIAN(clients.NCLiabilities1),0.0
+365,kind.MEDIAN(clients.shortLoan2),0.004704731298782273
+366,city.MEDIAN(clients.shortLoan2),0.01812543316714526
+367,city.MEAN(clients.OnonCAsset2),0.05125430055588166
+368,change.MEAN(clients.OnonCAsset2),0.00014490107595813883
+369,change.STD(clients.tanAsset1),0.0010602872333139227
+370,city.STD(clients.quickAsset1),0.00130399057605789
+371,change.SUM(clients.NCLiabilities2),0.0
+372,change.SUM(clients.interest1),7.104354914288891e-05
+373,change.SUM(clients.nonCAsset1),0.00017156601018181332
+374,change.MEAN(clients.interest2),0.0
+375,city.MEAN(clients.liquidLiabilities2),0.010906003720984356
+376,city.SUM(clients.salary1),0.009320195449314863
+377,kind.STD(clients.ctax2),0.005206894548628998
+378,city.MEDIAN(clients.OnonCAsset2),0.002181722659820768
+379,kind.SUM(clients.sga2),0.0
+380,change.MEDIAN(clients.inventoryAsset2),0.0
+381,city.STD(clients.profit2),0.004890900058285834
+382,city.SUM(clients.shortLoan1),0.018933825417029884
+383,kind.MEDIAN(clients.noe2),0.010373596662961494
+384,kind.MEAN(clients.OnonCAsset1),0.0035153931204126173
+385,city.MEAN(clients.netAsset1),0.010932375612067698
+386,kind.MEAN(clients.salescost2),0.0003267337499974787
+387,city.MEAN(clients.noe2),0.003124279645781081
+388,city.SUM(clients.liquidLiabilities1),0.0022403658030364973
+389,city.STD(clients.sga2),0.01256168260522525
+390,kind.SUM(clients.receivableL2),0.004886585238782623
+391,kind.MEAN(clients.noe1),0.0018132930917920172
+392,kind.MEAN(clients.NCLiabilities1),0.0035534059835289926
+393,kind.SUM(clients.surplus2),0.0001717519827641624
+394,city.MEDIAN(clients.salescost2),0.032664105504233494
+395,kind.MEDIAN(clients.longLoan2),0.002263066747123395
+396,change.STD(clients.sga2),0.0004385197427988732
+397,kind.MEAN(clients.bedCount),0.0009676280917459676
+398,city.MEAN(clients.nonCAsset2),0.004492275088662501
+399,city.MEDIAN(clients.revenue2),0.013700594006452424
+400,city.MEAN(clients.longLoan1),0.011257440993669942
+401,kind.SUM(clients.NCLiabilities2),0.0030906290079471643
+402,kind.STD(clients.revenue1),0.003011020638181638
+403,change.STD(clients.inventoryAsset2),0.0001670521497344051
+404,change.MEAN(clients.noi1),7.335918914812236e-05
+405,kind.SUM(clients.inventoryAsset1),0.0
+406,change.MEDIAN(clients.OnonCAsset1),0.0
+407,change.SUM(clients.tanAsset2),0.0
+408,city.STD(clients.surplus2),0.03216930345199189
+409,change.MEDIAN(clients.inventoryAsset1),0.0
+410,change.MEAN(clients.quickAsset1),0.0
+411,change.MEDIAN(clients.noe1),0.00016027148983947155
+412,city.MEAN(clients.profit2),0.011850351160058678
+413,kind.MEDIAN(clients.profit2),0.0025497429744442603
+414,change.MEAN(clients.sgg),7.83726802319534e-05
+415,change.STD(clients.liquidLiabilities1),0.0
+416,change.MEDIAN(clients.profit2),0.000241467321369559
+417,kind.MEAN(clients.revenue2),0.003554049989022823
+418,kind.SUM(clients.nonCAsset1),0.0011363334667094014
+419,change.SUM(clients.liquidAsset1),0.0
+420,change.MEDIAN(clients.quickAsset2),0.0
+421,city.MEAN(clients.liquidAsset2),0.005132918432126024
+422,change.MEAN(clients.noe1),0.0027718042616866456
+423,change.MEAN(clients.sga1),0.0
+424,kind.MEAN(clients.salary2),0.0068225145227252485
+425,city.MEDIAN(clients.netAsset2),0.011444342672500826
+426,kind.SUM(clients.OnonCAsset2),0.0021769773846485618
+427,kind.MEAN(clients.quickAsset2),0.0016865521093838037
+428,change.MEAN(clients.liquidLiabilities1),0.0
+429,city.MEDIAN(clients.debt1),0.013022273821224555
+430,city.STD(clients.profit1),0.002493550083935111
+431,kind.MEDIAN(clients.sga1),0.003119087523663047
+432,change.STD(clients.quickAsset1),0.00047497243411928885
+433,kind.SUM(clients.longLoan1),0.0
+434,kind.MEDIAN(clients.inventoryAsset1),0.0011068066695965116
+435,city.STD(clients.interest1),0.013871182282830172
+436,change.MEAN(clients.noi2),7.409119898606731e-05
+437,city.MEDIAN(clients.interest2),0.014867993380676778
+438,kind.STD(clients.longLoan2),0.0018706810021445384
+439,change.MEAN(clients.ctax1),7.86748110013273e-05
+440,city.SUM(clients.longLoan1),0.0028410126521942435
+441,city.SUM(clients.profit2),0.006602324313216613
+442,kind.MEAN(clients.debt2),0.006475794726662083
+443,kind.MEAN(clients.salary1),0.005273247876651706
+444,change.STD(clients.nonCAsset1),0.00026161969667591394
+445,city.STD(clients.OnonCAsset1),0.005142466546948767
+446,change.MEAN(clients.quickAsset2),0.0
+447,change.STD(clients.NCLiabilities2),0.000157990546788349
+448,change.MEAN(clients.netAsset2),0.0
+449,change.MEDIAN(clients.longLoan1),0.00028140634883157885
+450,city.SUM(clients.surplus1),0.0009149774650571135
+451,change.MEDIAN(clients.receivableS1),0.0003656154429115054
+452,change.MEAN(clients.salescost2),0.0
+453,kind.STD(clients.receivableS2),0.0
+454,kind.SUM(clients.ctax1),0.0030176257107180633
+455,change.SUM(clients.longLoan2),0.0
+456,change.MEDIAN(clients.receivableL2),0.0
+457,city.MEAN(clients.salary1),0.0007200191861043406
+458,kind.STD(clients.interest1),0.0025340833758249553
+459,kind.MEAN(clients.debt1),0.0031867017206245922
+460,kind.MEAN(clients.ctax1),0.0035347922285788548
+461,change.MEDIAN(clients.liquidAsset1),0.0
+462,city.STD(clients.receivableS2),0.03843757351702266
+463,kind.MEDIAN(clients.debt1),0.008471849045864533
+464,change.SUM(clients.sga1),0.0
+465,kind.STD(clients.interest2),0.00019319758011100872
+466,city.STD(clients.netAsset1),0.012335876912366265
+467,change.SUM(clients.quickAsset1),0.00014010595514332006
+468,city.MEAN(clients.tanAsset1),0.0002754022061232733
+469,kind.SUM(clients.profit1),0.0013976773214908684
+470,kind.MEAN(clients.longLoan1),0.0035928330035156766
+471,kind.SUM(clients.liquidLiabilities2),0.0
+472,kind.STD(clients.surplus2),0.007893078933598788
+473,city.MEDIAN(clients.receivableS1),0.024543781376581947
+474,change.SUM(clients.tanAsset1),0.0
+475,kind.STD(clients.quickAsset2),0.004275528020620626
+476,change.SUM(clients.debt1),0.0001547911779185099
+477,change.MEDIAN(clients.longLoan2),0.0
+478,kind.STD(clients.shortLoan2),0.011158969537636187
+479,kind.STD(clients.quickAsset1),0.005451303425169573
+480,city.MEDIAN(clients.tanAsset1),0.005053755735306367
+481,city.MEDIAN(clients.shortLoan1),0.019061084686544542
+482,city.SUM(clients.inventoryAsset2),0.0037470373178519123
+483,change.SUM(clients.NCLiabilities1),0.00027832723427924393
+484,kind.STD(clients.ctax1),0.003215670467963025
+485,city.MEAN(clients.surplus1),0.006592901425315973
+486,kind.STD(clients.debt1),0.003233491081212489
+487,kind.SUM(clients.NCLiabilities1),0.0035389745868117744
+488,change.SUM(clients.shortLoan1),3.59231254765431e-06
+489,city.MEAN(clients.sgg),0.029217206253059673
+490,kind.SUM(clients.OnonCAsset1),0.00013236921391714763
+491,kind.MEAN(clients.interest1),0.00843559049014216
+492,change.STD(clients.surplus1),0.0002474083499813247
+493,kind.MEDIAN(clients.netAsset1),0.0009877432122593261
+494,city.SUM(clients.surplus2),0.009952929538868152
+495,kind.SUM(clients.shortLoan2),0.00011759045175334146
+496,change.SUM(clients.noe1),0.00011556386652111433
+497,change.SUM(clients.sgg),0.00022721625188309945
+498,kind.SUM(clients.tanAsset2),0.0
+499,change.MEAN(clients.receivableL1),1.7998967489535878e-06
+500,city.SUM(clients.sga1),0.009964815968780748
+501,city.MEAN(clients.revenue1),0.013171233435675236
+502,city.MEDIAN(clients.receivableL2),0.0
+503,city.MEAN(clients.quickAsset2),0.001973248469832441
+504,kind.MODE(clients.employee2) = 75.0,9.958760982513239e-05
+505,kind.MODE(clients.employee2) = 1.0,0.0010310680552560333
+506,kind.MODE(clients.employee2) = 901.0,0.0012489808102497696
+507,kind.MODE(clients.employee2) = 15.0,0.0
+508,kind.MODE(clients.employee2) = 10.0,0.0
+509,kind.MODE(clients.employee2) = 409,0.0
+510,kind.MODE(clients.employee2) = 109.0,0.0
+511,kind.MODE(clients.employee2) = unknown,0.0
+512,kind.MEAN(clients.netAsset1),2.4281570321971114e-05
+513,city.MEDIAN(clients.quickAsset1),0.05599067568806203
+514,city.MEAN(clients.receivableS1),0.007687297430902866
+515,kind.COUNT(clients),0.0
+516,kind.SUM(clients.noi1),0.0012228422147834573
+517,kind.SUM(clients.receivableS2),0.0012367813874141675
+518,kind.MEAN(clients.quickAsset1),0.0011863713139488286
+519,city.STD(clients.liquidLiabilities1),0.02171531509486596
+520,city.STD(clients.noe2),0.006170304049304029
+521,change.MEAN(clients.surplus2),0.00014084804374387411
+522,city.STD(clients.quickAsset2),0.005308803818410691
+523,city.SUM(clients.quickAsset2),0.012120968545259543
+524,change.MEAN(clients.debt2),0.0002734235910005554
+525,kind.SUM(clients.interest2),0.001606905950030399
+526,kind.SUM(clients.bedCount),0.010015285027603715
+527,change.STD(clients.receivableL2),0.0
+528,kind.MEAN(clients.noi1),0.0
+529,change.MEAN(clients.ctax2),0.0005752059808342087
+530,change.STD(clients.interest2),7.606102990493614e-05
+531,city.SUM(clients.tanAsset1),0.002343480772011844
+532,change.MEAN(clients.bedCount),0.0
+533,change.SUM(clients.profit1),0.0
+534,city.STD(clients.shortLoan2),0.009818547232590074
+535,change.STD(clients.profit2),7.196300836389457e-05
+536,kind.SUM(clients.liquidAsset2),0.0
+537,change.MEDIAN(clients.ctax1),0.0
+538,kind.SUM(clients.netAsset1),0.0
+539,change.MEAN(clients.receivableL2),0.0001474173181217606
+540,kind.MEAN(clients.receivableL1),0.003919706439588853
+541,city.MEDIAN(clients.nonCAsset2),0.012037466570782281
+542,change.SUM(clients.interest2),0.0
+543,kind.SUM(clients.interest1),0.0008355760315590188
+544,kind.MEDIAN(clients.liquidAsset1),0.010891570644913936
+545,city.MEDIAN(clients.NCLiabilities2),0.0696348827679468
+546,city.STD(clients.nonCAsset2),0.0015214705200349069
+547,change.MEDIAN(clients.salescost2),0.0
+548,kind.MEAN(clients.profit1),0.0
+549,change.STD(clients.tanAsset2),0.0
+550,kind.SUM(clients.ctax2),0.001641695236119207
+551,change.STD(clients.debt1),0.00027442176397598307
+552,change.SUM(clients.surplus1),0.0
+553,kind.STD(clients.inventoryAsset2),0.0004798593551819298
+554,change.SUM(clients.surplus2),0.002934485731729698
+555,city.STD(clients.netAsset2),0.005625032767788447
+556,city.SUM(clients.sgg),0.01575334771252135
+557,change.SUM(clients.revenue1),0.0
+558,change.MEAN(clients.receivableS2),0.00046625908650572225
+559,kind.MEAN(clients.tanAsset2),9.52397212634654e-05
+560,kind.MEDIAN(clients.sgg),0.005652400431817637
+561,city.MEDIAN(clients.debt2),0.009673441404881567
+562,kind.SUM(clients.salary2),0.0012939901687984874
+563,kind.SUM(clients.sgg),0.0019525091159389237
+564,city.MEAN(clients.receivableL1),0.0007653772203938118
+565,city.SUM(clients.noe1),0.0008342984619439392
+566,change.MEDIAN(clients.bedCount),0.0
+567,change.STD(clients.quickAsset2),0.0
+568,change.MEDIAN(clients.liquidLiabilities1),0.0
+569,city.SUM(clients.shortLoan2),0.009033709788715844
+570,change.SUM(clients.noi2),0.0003469592022904005
+571,change.SUM(clients.noi1),0.0
+572,city.MEDIAN(clients.interest1),0.012605313167181265
+573,city.MEDIAN(clients.sga2),0.016508234184456762
+574,change.MEAN(clients.debt1),0.00040383502545406655
+575,change.MEAN(clients.shortLoan2),0.0
+576,city.SUM(clients.receivableS2),0.019960060993427092
+577,kind.STD(clients.tanAsset1),0.0020823438645490105
+578,kind.SUM(clients.shortLoan1),0.0013342614315751385
+579,kind.MEDIAN(clients.salary1),0.0032951958951601404
+580,city.SUM(clients.receivableS1),0.016768448326223737
+581,change.MEDIAN(clients.liquidAsset2),0.0006489234894459085
+582,kind.MEDIAN(clients.liquidLiabilities1),0.0040837397825047835
+583,kind.MEDIAN(clients.receivableL1),0.0
+584,change.SUM(clients.longLoan1),0.0
+585,change.MEAN(clients.OnonCAsset1),0.0
+586,kind.STD(clients.noi1),0.00035134778116911936
+587,change.MODE(clients.employee1) = 79.0,0.0011050682183118175
+588,change.MODE(clients.employee1) = 16.0,0.0
+589,change.MODE(clients.employee1) = unknown,0.0010923146299064252
+590,kind.STD(clients.NCLiabilities2),0.0007750639010267965
+591,change.SUM(clients.receivableS2),7.685095312843234e-05
+592,kind.MEDIAN(clients.revenue2),0.002106997739964721
+593,change.MEDIAN(clients.nonCAsset1),8.103516675551318e-05
+594,kind.MEDIAN(clients.receivableS1),0.0036031254265011326
+595,city.MEDIAN(clients.sga1),0.004093950138983685
+596,kind.STD(clients.liquidLiabilities2),0.0019064396066258752
+597,kind.SUM(clients.salescost2),0.0010088656700904446
+598,change.MEAN(clients.surplus1),0.0003739182546688694
+599,change.STD(clients.liquidAsset2),0.0
+600,change.MEDIAN(clients.sgg),0.0
+601,kind.MEAN(clients.NCLiabilities2),0.0008720787748367604
+602,city.MODE(clients.instkind) = nursing_hospital,0.0010203766154371133
+603,city.MODE(clients.instkind) = hospital,8.03753892668418e-05
+604,city.MODE(clients.instkind) = unknown,0.0
+605,city.SUM(clients.receivableL1),0.0011139761628799908
+606,city.MEAN(clients.salary2),0.006729414124093692
+607,kind.MEAN(clients.inventoryAsset1),0.00022491757742560276
+608,change.STD(clients.salescost1),0.0
+609,kind.MEDIAN(clients.sga2),0.007365674977508096
+610,city.MEAN(clients.shortLoan2),0.010915930243692166
+611,kind.SUM(clients.debt2),0.0005173293208558156
+612,city.STD(clients.revenue2),0.003952884558418232
+613,change.SUM(clients.OnonCAsset1),0.00011556386652111353
+614,city.MEAN(clients.noi2),0.013579064512717905
+615,city.STD(clients.shortLoan1),0.09174734774032392
+616,change.SUM(clients.revenue2),0.0012753318315064854
+617,kind.MEAN(clients.receivableS1),0.0018320430396128284
+618,change.STD(clients.ctax1),0.0
+619,kind.STD(clients.profit1),0.0021688630317808037
+620,city.MEDIAN(clients.receivableS2),0.004504363803207051
+621,change.MEDIAN(clients.debt1),0.0003025067480948925
+622,kind.MEAN(clients.shortLoan1),0.0015981160259975007
+623,kind.STD(clients.revenue2),0.0014373869646601995
+624,kind.STD(clients.salary2),0.0035096060382484623
+625,change.STD(clients.revenue2),0.0
+626,kind.STD(clients.nonCAsset2),0.0005943221500002713
+627,city.MEDIAN(clients.liquidLiabilities2),0.027898354200240554
+628,change.SUM(clients.noe2),0.0
+629,city.MEDIAN(clients.liquidAsset2),0.016287522775851954
+630,change.MEDIAN(clients.shortLoan2),0.0
+631,change.SUM(clients.salescost1),0.0
+632,change.MEDIAN(clients.OnonCAsset2),0.0
+633,city.STD(clients.longLoan2),0.001574060687569889
+634,city.MEAN(clients.nonCAsset1),0.004723322312681314
+635,change.SUM(clients.inventoryAsset1),0.0
+636,change.MEAN(clients.salary2),0.0
+637,city.STD(clients.salescost1),0.027688529188954945
+638,kind.STD(clients.noe2),0.0024334852692969814
+639,city.MEAN(clients.tanAsset2),0.008666353259236658
+640,city.SUM(clients.receivableL2),0.0
+641,city.MEAN(clients.ctax1),0.0007492306209917191
+642,change.STD(clients.longLoan2),0.0
+643,city.MEDIAN(clients.inventoryAsset1),0.017534184842849562
+644,change.STD(clients.noi2),0.0
+645,change.MEDIAN(clients.tanAsset2),0.0
+646,city.MEDIAN(clients.salary1),0.009397340359577771
+647,kind.MEDIAN(clients.liquidLiabilities2),0.009614227732486921
+648,change.SUM(clients.receivableL1),0.0007892994531034382
+649,city.SUM(clients.tanAsset2),0.006628083285821063
+650,change.MEAN(clients.inventoryAsset2),0.0
+651,city.MODE(clients.ownerChange) = same,0.002747252816334367
+652,city.MODE(clients.ownerChange) = change,0.0
+653,city.MODE(clients.ownerChange) = unknown,0.0
+654,change.MEDIAN(clients.profit1),0.0
+655,city.STD(clients.interest2),0.0173065643756
+656,kind.SUM(clients.receivableS1),0.0022294728490283864
+657,city.MEAN(clients.inventoryAsset1),0.0016616034932501172
+658,change.MEDIAN(clients.sga2),0.00022331564550152287
+659,change.SUM(clients.netAsset2),0.0
+660,kind.SUM(clients.inventoryAsset2),0.0014134788481533914
+661,change.MEAN(clients.NCLiabilities2),0.000341799769293229
+662,city.MEAN(clients.liquidAsset1),0.008318804785255988
+663,kind.STD(clients.netAsset1),0.0012773002018076358
+664,kind.MEAN(clients.nonCAsset2),0.0011156548880649282
+665,kind.MEAN(clients.shortLoan2),0.005025128923084397
+666,city.MEAN(clients.shortLoan1),0.0019912575336556494
+667,change.STD(clients.shortLoan2),3.497045721800945e-06
+668,kind.MEAN(clients.revenue1),0.004257139265259056
+669,kind.STD(clients.salary1),0.0008645762928015513
+670,city.MEAN(clients.interest2),0.009414534935123443
+671,kind.MEDIAN(clients.noe1),0.004585078756027268
+672,kind.MEDIAN(clients.inventoryAsset2),0.0001368961303380547
+673,change.SUM(clients.inventoryAsset2),0.0
+674,city.SUM(clients.profit1),0.019778217621869487
+675,kind.MEAN(clients.noe2),0.00408731960469726
+676,city.MEDIAN(clients.salary2),0.0053294152858639355
+677,kind.STD(clients.OnonCAsset1),0.0009003266958241838
+678,kind.MEAN(clients.liquidAsset2),0.002278722254581161
+679,kind.MEAN(clients.noi2),0.0016872775440942222
+680,kind.MEDIAN(clients.liquidAsset2),0.005660785441392936
+681,change.STD(clients.noi1),0.0
+682,city.MEAN(clients.surplus2),0.009595365437451335
+683,change.SUM(clients.liquidLiabilities1),3.097478861340924e-05
+684,kind.MEDIAN(clients.salary2),0.0014268838489089703
+685,change.MEDIAN(clients.interest1),0.0003444448732084495
+686,kind.MEDIAN(clients.OnonCAsset1),0.0036320471279346995
+687,kind.MEDIAN(clients.noi2),0.006508617437671697
+688,city.MEAN(clients.OnonCAsset1),0.006674992392710167
+689,kind.STD(clients.bedCount),0.0006254709776170864
+690,change.MEDIAN(clients.netAsset2),0.002747252816334367
+691,change.STD(clients.salary1),0.0
+692,kind.MEDIAN(clients.nonCAsset1),0.004465202778944892
+693,kind.MEDIAN(clients.OnonCAsset2),0.003266438304574822
+694,kind.MEAN(clients.sga1),0.004911009898566242
+695,city.MEAN(clients.debt1),0.004060029574253973
+696,city.MEAN(clients.debt2),0.021401580915532813
+697,city.MEDIAN(clients.NCLiabilities1),0.013549732235228125
+698,city.STD(clients.tanAsset2),0.004928850264421112
+699,city.SUM(clients.nonCAsset2),0.003470077850455718
+700,change.SUM(clients.salary2),0.0004497720769881074
+701,change.MEAN(clients.netAsset1),0.0
+702,change.MEAN(clients.longLoan1),0.0005868804439067544
+703,change.SUM(clients.shortLoan2),0.000768279516363153
+704,change.MEDIAN(clients.receivableS2),2.1857484279149427e-05
+705,city.SUM(clients.interest1),0.002196988857783876
+706,kind.MEDIAN(clients.tanAsset1),0.0
+707,change.MEAN(clients.tanAsset2),0.0
+708,city.MEAN(clients.netAsset2),0.005366250919561208
+709,city.MEAN(clients.ctax2),0.00590794177936309
+710,city.MEAN(clients.quickAsset1),0.006923881914640572
+711,change.MODE(clients.employee2) = 70.0,0.0
+712,change.MODE(clients.employee2) = 15.0,0.0
+713,change.MODE(clients.employee2) = unknown,0.0
+714,city.MEAN(clients.noe1),0.008945984002829302
+715,kind.MEDIAN(clients.noi1),0.00587444406902429
+716,kind.SUM(clients.debt1),0.00047642815307487226
+717,change.MEDIAN(clients.quickAsset1),7.225702644471442e-05
+718,city.SUM(clients.quickAsset1),0.00365417260141292
+719,kind.STD(clients.netAsset2),0.00240106825671219
+720,change.STD(clients.profit1),0.0
+721,kind.MEDIAN(clients.surplus1),0.0
+722,kind.MEAN(clients.profit2),0.0028562010817027696
+723,change.MODE(clients.sido) = gyeonggi,0.0027976152256140568
+724,change.MODE(clients.sido) = gyeongbuk,0.0007156100946628016
+725,change.MODE(clients.sido) = unknown,0.0
+726,city.MEDIAN(clients.receivableL1),0.0
+727,city.MEAN(clients.receivableS2),0.010583728937566936
+728,change.STD(clients.NCLiabilities1),7.901421915922756e-05
+729,city.STD(clients.sga1),0.00898449906975228
+730,city.MEDIAN(clients.ctax1),0.00597174488826204
+731,kind.MEDIAN(clients.surplus2),0.000600000698309504
+732,city.STD(clients.receivableS1),0.005954650352661374
+733,city.MEAN(clients.liquidLiabilities1),0.005353300535456312
+734,kind.MEAN(clients.inventoryAsset2),0.0
+735,city.STD(clients.noe1),0.003796455336195291
+736,city.MEDIAN(clients.noi1),0.005399780169906646
+737,city.STD(clients.inventoryAsset1),0.02425408190948688
+738,kind.STD(clients.sga1),0.0030888018813083834
+739,city.MEDIAN(clients.profit2),0.008395803427583427
+740,city.STD(clients.receivableL1),0.0
+741,change.MEDIAN(clients.tanAsset1),0.0
+742,kind.STD(clients.liquidLiabilities1),0.005177145591237639
+743,change.SUM(clients.OnonCAsset2),0.0
+744,change.MEAN(clients.liquidAsset2),0.0
+745,kind.SUM(clients.nonCAsset2),0.0006863385531510267
+746,city.MEAN(clients.noi1),0.000807175252356026
+747,change.SUM(clients.bedCount),0.0
+748,city.MEDIAN(clients.profit1),0.03055482089267579
+749,city.MODE(clients.employee2) = 70.0,0.0
+750,city.MODE(clients.employee2) = 0,0.0005829245736649268
+751,city.MODE(clients.employee2) = 56.0,0.000818292920393126
+752,city.MODE(clients.employee2) = 75.0,0.0
+753,city.MODE(clients.employee2) = 74.0,0.0
+754,city.MODE(clients.employee2) = 52.0,2.5807172739322523e-05
+755,city.MODE(clients.employee2) = 278.0,0.0003822721251699415
+756,city.MODE(clients.employee2) = 15.0,8.38142855645503e-05
+757,city.MODE(clients.employee2) = 1.0,0.001036567317729112
+758,city.MODE(clients.employee2) = 0.0,0.00017870994850952853
+759,city.MODE(clients.employee2) = unknown,0.0
+760,city.STD(clients.liquidLiabilities2),0.009066164882209406
+761,kind.MEAN(clients.interest2),0.0005016551760585201
+762,kind.SUM(clients.tanAsset1),0.0015332486514375362
+763,change.STD(clients.netAsset1),0.0
+764,change.STD(clients.ctax2),0.00021771313698156234
+765,kind.MEDIAN(clients.salescost1),0.004956027835602399
+766,city.SUM(clients.liquidAsset1),0.0076483938858489765
+767,city.MEDIAN(clients.quickAsset2),0.027233273271153376
+768,city.MEDIAN(clients.OnonCAsset1),2.5401979880141403e-05
+769,change.SUM(clients.ctax2),0.0
+770,city.MEAN(clients.receivableL2),0.0033875516799787083
+771,change.MEDIAN(clients.interest2),0.0
+772,change.STD(clients.receivableS2),0.0
+773,kind.STD(clients.sgg),0.004229324609065541
+774,city.SUM(clients.ctax2),0.005162778544372313
+775,city.STD(clients.NCLiabilities1),0.0019992331508143467
+776,city.MEAN(clients.interest1),0.023495584036456553
+777,city.MODE(clients.employee1) = 42.0,0.0
+778,city.MODE(clients.employee1) = 350.0,3.667555687889126e-06
+779,city.MODE(clients.employee1) = 130,0.0026463127689503292
+780,city.MODE(clients.employee1) = 54.0,0.0002887687683080865
+781,city.MODE(clients.employee1) = 36,0.00010724783807147136
+782,city.MODE(clients.employee1) = 21.0,6.86662075530233e-06
+783,city.MODE(clients.employee1) = 342.0,0.002747252816334367
+784,city.MODE(clients.employee1) = 107.0,0.0011788813761050832
+785,city.MODE(clients.employee1) = 70.0,0.0
+786,city.MODE(clients.employee1) = 132.0,0.0
+787,city.MODE(clients.employee1) = unknown,0.0006289550923353114
+788,change.MEAN(clients.noe2),0.0
+789,city.STD(clients.bedCount),0.07269257623500129
+790,change.STD(clients.salary2),0.0007061362600410848
+791,change.MEAN(clients.liquidAsset1),0.0005988785916609885
+792,kind.STD(clients.nonCAsset1),0.004288029702043619
+793,kind.STD(clients.debt2),0.0026133902512698536
+794,kind.SUM(clients.noi2),0.0013462496402429204
+795,change.MEAN(clients.tanAsset1),0.0003997827051523995
+796,city.MEAN(clients.bedCount),0.04423655235576615
+797,change.MEDIAN(clients.salary1),0.0
+798,city.STD(clients.receivableL2),0.0003115661977727754
+799,city.SUM(clients.NCLiabilities2),0.012275708398978527
+800,city.SUM(clients.sga2),0.0017134006632182185
+801,city.SUM(clients.netAsset1),0.00928296242891807
+802,change.SUM(clients.netAsset1),1.3675138713538586e-05
+803,kind.MEAN(clients.receivableL2),0.002901513272710164
+804,city.SUM(clients.noi1),0.0007658518332503383
+805,kind.MODE(clients.sido) = gyeongbuk,0.0
+806,kind.MODE(clients.sido) = gyeonggi,0.0006263777528435208
+807,kind.MODE(clients.sido) = seoul,0.0
+808,kind.MODE(clients.sido) = unknown,0.0
+809,kind.MEDIAN(clients.ctax1),0.0041828251149401705
+810,kind.MEAN(clients.ctax2),0.0015723712974863482
+811,change.MEAN(clients.inventoryAsset1),0.0009665540322161423
+812,kind.MEDIAN(clients.receivableL2),0.0
+813,city.MEAN(clients.salescost2),0.03878269541124582
+814,kind.SUM(clients.quickAsset1),1.539427330367817e-05
+815,kind.MEDIAN(clients.debt2),0.008393378745480436
+816,change.MEDIAN(clients.noe2),0.0
+817,city.SUM(clients.netAsset2),0.007952464365148265
+818,kind.STD(clients.OnonCAsset2),0.002645379631197603
+819,city.SUM(clients.ctax1),0.011751161027417769
+820,change.MEDIAN(clients.nonCAsset2),0.000680000765175087
+821,city.SUM(clients.nonCAsset1),0.0041498357908354745
+822,kind.STD(clients.receivableL1),0.0035088304207184923
+823,kind.MEDIAN(clients.ctax2),0.002618506429650932
+824,kind.MEAN(clients.salescost1),0.0025036675866541135
+825,change.STD(clients.longLoan1),0.0
+826,kind.SUM(clients.liquidLiabilities1),0.00047550989754578145
+827,city.STD(clients.nonCAsset1),0.008906296018318218
+828,city.STD(clients.NCLiabilities2),0.0015972025683958359
+829,change.STD(clients.OnonCAsset1),0.0
+830,city.SUM(clients.inventoryAsset1),0.005770563829952849
+831,kind.MEAN(clients.receivableS2),0.0
+832,change.STD(clients.liquidLiabilities2),0.0
+833,city.SUM(clients.revenue2),0.007051571058257226
+834,city.SUM(clients.longLoan2),0.009215874624173656
+835,change.SUM(clients.liquidAsset2),0.0
+836,change.MEDIAN(clients.surplus2),0.0
+837,city.MEDIAN(clients.inventoryAsset2),0.01644209594719217
+838,city.MEDIAN(clients.sgg),0.013899438654617947
+839,kind.MEAN(clients.surplus2),0.0004244560131492145
+840,change.STD(clients.bedCount),7.935380918342702e-05
+841,change.SUM(clients.ctax1),0.0
+842,kind.MEDIAN(clients.revenue1),0.004264689437260421
+843,change.MEDIAN(clients.revenue2),0.0
+844,change.STD(clients.salescost2),0.0
+845,change.MEAN(clients.revenue2),0.0
+846,kind.MEAN(clients.sgg),0.0011886426722281854
+847,change.MEAN(clients.shortLoan1),0.0
+848,change.SUM(clients.quickAsset2),7.449713430762999e-05
+849,kind.STD(clients.surplus1),0.0018200301861219957
+850,city.STD(clients.tanAsset1),0.00689915807031345
+851,kind.MEDIAN(clients.longLoan1),0.00022990011556902294
+852,city.SUM(clients.interest2),0.0034319458846152145
+853,change.MEAN(clients.liquidLiabilities2),8.037538926684138e-05
+854,change.STD(clients.netAsset2),7.41060676618305e-05
+855,kind.STD(clients.liquidAsset2),0.005836939275982655
+856,kind.MEDIAN(clients.profit1),0.0019383944437521314
+857,city.SUM(clients.bedCount),0.008548934222901799
+858,change.MODE(clients.instkind) = nursing_hospital,0.002934479586888351
+859,change.MODE(clients.instkind) = unknown,0.00044898127550125553
+860,change.MEAN(clients.NCLiabilities1),7.403848271291246e-05
+861,city.SUM(clients.salescost1),0.0064270782071143605
+862,kind.MEAN(clients.liquidLiabilities2),9.943182293784008e-05
+863,kind.MEDIAN(clients.nonCAsset2),0.00419742096227699
+864,city.SUM(clients.noe2),0.005403524773027833
+865,change.SUM(clients.receivableS1),0.0
+866,city.MEDIAN(clients.bedCount),0.005409178212922326
+867,kind.MEAN(clients.OnonCAsset2),0.008432541245123626
+868,change.SUM(clients.nonCAsset2),0.0
+869,change.STD(clients.liquidAsset1),1.6788260603726545e-05
+870,change.MEAN(clients.receivableS1),0.0
+871,kind.MEAN(clients.surplus1),0.0022758789341664953
+872,city.STD(clients.revenue1),0.004073415376774931
+873,city.SUM(clients.OnonCAsset1),0.01292695377234317
+874,change.SUM(clients.profit2),0.0
+875,kind.MEDIAN(clients.bedCount),0.0002234486345261025
+876,city.MEAN(clients.revenue2),0.00969198147190637
+877,change.STD(clients.noe2),0.0005083687748755004
+878,kind.MEAN(clients.sga2),0.004832420645932619
+879,kind.STD(clients.salescost1),0.0006244267337181815
+880,kind.MEDIAN(clients.quickAsset1),0.002426517939579532
+881,kind.MEDIAN(clients.receivableS2),0.00036396305470941503
+882,city.SUM(clients.NCLiabilities1),0.011220651789266784
+883,change.MEDIAN(clients.receivableL1),0.0
+884,city.SUM(clients.salary2),0.008475627293900537
+885,city.MEDIAN(clients.surplus1),0.0
+886,city.SUM(clients.debt1),0.009502140865019082
+887,kind.MODE(clients.employee1) = 54.0,0.0066662126514164125
+888,kind.MODE(clients.employee1) = 60.0,0.00030900983663405187
+889,kind.MODE(clients.employee1) = 211.0,6.53628226311875e-05
+890,kind.MODE(clients.employee1) = 16.0,0.0
+891,kind.MODE(clients.employee1) = 42.0,0.002747252816334367
+892,kind.MODE(clients.employee1) = 532,0.0
+893,kind.MODE(clients.employee1) = 107.0,6.410730489920407e-06
+894,kind.MODE(clients.employee1) = unknown,0.0
+895,city.STD(clients.ctax1),0.006276952930178977
+896,city.STD(clients.surplus1),0.003870861203129442
+897,city.STD(clients.salescost2),0.02102436424975504
+898,city.MEDIAN(clients.ctax2),0.005166990981002138
+899,change.MEAN(clients.revenue1),0.0
+900,city.STD(clients.noi1),0.004416280764526242
+901,change.STD(clients.surplus2),7.733342751998838e-05
+902,city.MEDIAN(clients.surplus2),0.0
+903,kind.MEDIAN(clients.salescost2),0.0026442939615552246
+904,city.MEDIAN(clients.liquidAsset1),0.06895051544503769
+905,kind.MEDIAN(clients.NCLiabilities2),0.0022429948250465618
+906,city.MEAN(clients.profit1),0.006195467841928602
+907,city.COUNT(clients),0.01109747728424414
+908,kind.SUM(clients.receivableL1),0.0032711771481184434
+909,change.MEAN(clients.salary1),0.0
+910,change.MEAN(clients.profit1),0.0
+911,change.MEDIAN(clients.salary2),0.0
+912,change.SUM(clients.salescost2),0.0
+913,city.MEDIAN(clients.nonCAsset1),0.005959432648651005
+914,city.MEDIAN(clients.longLoan1),0.02790269829626429
+915,kind.STD(clients.noe1),0.00383555594303278
+916,city.MEDIAN(clients.noe1),0.008114594417085712
+917,kind.SUM(clients.liquidAsset1),0.0
+918,kind.MEAN(clients.liquidAsset1),0.0025758357428878344
+919,kind.SUM(clients.revenue1),0.00021363834067632937
+920,kind.STD(clients.profit2),0.0015680213314954576
+921,city.STD(clients.longLoan1),0.010428390345948528
+922,change.MEDIAN(clients.revenue1),0.0
+923,kind.STD(clients.salescost2),0.009811747388335032
+924,city.MEDIAN(clients.salescost1),0.057090677491003265
+925,kind.SUM(clients.sga1),0.0007143506446377333
+926,city.SUM(clients.OnonCAsset2),0.004375238269549081
+927,kind.SUM(clients.quickAsset2),0.0009859251378125347
+928,kind.SUM(clients.salescost1),0.00348224949140781
+929,change.MEDIAN(clients.shortLoan1),0.0
+930,sido_enc,0.4596198203286874
+931,openDate_enc,0.0046303082833697
+932,instkind_enc,0.017984181858367636
+933,employee1_enc,0.8429499583608123
+934,employee2_enc,0.5822404272725735
+935,ownerChange_enc,0.35587026237443464
